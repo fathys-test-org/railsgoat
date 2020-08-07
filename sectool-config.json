@@ -27,17 +27,6 @@
 			"name": "detect_secrets"
 		},
 		{
-			"category": "sca",
-			"policy": {
-				"action": "alert",
-				"options": {
-					"fail_on_cvss_level": 11,
-					"raw_options": ""
-				}
-			},
-			"name": "dependency_check"
-		},
-		{
 			"category": "static analysis",
 			"policy": {
 				"action": "alert",
